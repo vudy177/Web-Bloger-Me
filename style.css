@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #E2388A;
+}
+.nav-con{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 6vh;
+    margin:  auto 20px;
+}
+.menu {
+    display: flex;
+}
+.menu li{
+    margin-left: 8px;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    background-color: blueviolet;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+}
+.hero img{
+    max-width: 100vh;
+    position: relative;
+    margin-top: 5vh;
+}
+.contant{
+    width: 100%;
+}
+.contant h2{
+    color: #E2388A;
+    background-color: aquamarine;
+    text-align: center;
+    height: 7vh;
+    padding: 15px ;
+}
+.con-1{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    background-color: aqua;
+    padding: 20px;
+}
+.btn-all {
+    background-color: #E2388A;
+    text-align: center;
+    padding: 10px;
+}
+.con-sub{
+    width: 230px;
+    margin-top: 12px;
+    gap: 15px;
+    background-color: #E2388A;
+    padding: 20px 0 0 0;
+    text-align: center;
+    border-radius: 12px;
+    padding-bottom: 20px;
+}
+.con-sub img{
+    width: 200px;
+    margin: 0px auto;
+}
+.con-sub button{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 5px 20px ;
+    border-radius: 12px;
+}
+.discriptsion{
+    background-color: #E2388A;
+    display: flex;
+    justify-content: center;
+    gap: auto;
+    margin: 50px auto;
+    height: 50vh;
+    min-width:90vh ;
+    max-width: 100vh;
+    align-items: center;
+    border-radius: 52px;
+}
+.dis-info{
+    margin: 40px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.dis-con {
+    margin: 40px 0;
+}
+.contact--email{
+    list-style: none;
+}
+.contact--email li{
+    padding-top: 22px;
+}
+footer{
+    background-color: #E2388A;
+}
+.foot-con{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 40px;
+}
+.contact{
+    list-style: none;
+}
+.contact li{
+    padding-top: 10px;
+}
+.copy h3{
+    color: blue;
+}
+.last{
+    text-align: center;
+    padding-bottom: 12px;
+    background-color: black;
+    color: antiquewhite;
+}
